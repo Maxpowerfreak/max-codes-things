@@ -1,9 +1,9 @@
 # max-codes-things
 Repository for my static site, https://maxcodesthings.com
 
-Hosted using Cloudflare Pages
+Hosted on Cloudflare Pages. 
 
 ## Stack
- * Go 1.21 (to match Cloudflare)
- * [Hugo 0.136.2](https://github.com/gohugoio/hugo)
- * [hugo-theme-stack theme](https://github.com/CaiJimmy/hugo-theme-stack)
+ * Go 1.24 (to match Cloudflare v3)
+ * [Hugo 0.152.2+extended](https://github.com/gohugoio/hugo)
+ * [hugo-theme-stack theme](https://github.com/CaiJimmy/hugo-theme-stack) v3

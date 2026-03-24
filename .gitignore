@@ -1,5 +1,29 @@
-.vscode
-public
-resources
-assets/jsconfig.json
+# Hugo generated SCSS cache
+resources/
+resources/_gen/
+
+# Hugo build output
+public/
 .hugo_build.lock
+
+# Hugo local server
+.hugo_cache/
+
+# Go modules cache
+vendor/
+
+# Nix
+.direnv/
+result
+result-*
+.envrc.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

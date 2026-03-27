@@ -9,7 +9,7 @@ license:
 hidden: false
 comments: true
 draft: false
-categories: [Testing in Golang]
+categories: [Testing in Golang, programming]
 tags: [golang, testing, tutorial]
 ---
 I've been thinking of writing this series of articles for a while now, without ever fully committing. This being my first written post ever written ([Hello, World!]({{< ref "/post/hello-world" >}}) really doesn't count), it took me some time to get over the hurdle of feeling enough confidence to put my thoughts out there on the www.

@@ -14,4 +14,4 @@ hasCJKLanguage = false
 disqusShortname = "maxcodesthings"
 
 [pagination]
-pagerSize = 5
+    pagerSize = 5

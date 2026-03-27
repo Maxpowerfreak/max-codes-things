@@ -1,17 +1,18 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-25.11";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, flake-utils, ...}:
+  outputs = { self, nixpkgs, nixpkgs-stable, flake-utils, ...}:
     flake-utils.lib.eachDefaultSystem (system:
       let 
         pkgs = import nixpkgs { inherit system; };
+        pkgs-stable = import nixpkgs-stable { inherit system; };
 
-        # Hugo 0.152.2 extended — pinned by building from source at the exact tag
         hugo = pkgs.hugo.overrideAttrs (old: rec {
-          version = "0.152.2";
+          version = "0.158.0";
           src = pkgs.fetchFromGitHub {
             owner = "gohugoio";
             repo = "hugo";
@@ -25,17 +26,9 @@
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.hugo
-            pkgs.go_1_24
+            pkgs-stable.go_1_24
             pkgs.git
           ];
-
-          shellHook = ''
-            echo "Hugo $(hugo version)"
-            echo "Go $(go version)"
-            echo ""
-            echo "Run 'go mod download' on first setup to fetch the theme."
-            echo "Then 'hugo server -D' to start the dev server."
-          '';
         }; 
       }
     );

@@ -8,7 +8,7 @@ license:
 categories: [thoughts, programming, learning]
 tags: [golang, rust, kubernetes]
 comments: true
-draft: true
+draft: false
 build:
     list: always    # Change to "never" to hide the page from the list
 ---

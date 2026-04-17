@@ -2,7 +2,7 @@
 title: "Forced Writing"
 description: 
 date: 2026-04-09T20:02:14-04:00
-image: 
+image: cover.jpg
 math: 
 license: 
 categories: ['life', 'journaling']
@@ -90,3 +90,8 @@ This was an interesting writing experiment. I didn't know I would write about th
 This might've been better as a handful of blog posts instead of one with so many subjects, but this is how it came out this time.
 
 I'm thinking of maybe taking some notes throughout the day when (and if) I think of subjects of things to talk about.
+
+---
+
+Cover by <a href="https://unsplash.com/@possessedphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Possessed Photography</a> on <a href="https://unsplash.com/photos/a-chain-on-a-table-w_lbs1MjBvs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      

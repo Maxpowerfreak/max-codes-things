@@ -5,6 +5,8 @@ date: 2026-04-25T16:37:08-04:00
 image: cover.png
 math: 
 license: 
+categories: [programming, learning]
+tags: [rust]
 comments: true
 draft: false
 build:

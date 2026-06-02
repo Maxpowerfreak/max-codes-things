@@ -5,6 +5,7 @@ date: 2026-06-01T22:12:58-04:00
 image: cover.jpg
 math: 
 license: 
+categories: ['life', 'career', 'journaling']
 comments: true
 draft: false
 build:
